@@ -1,5 +1,20 @@
 # @backstage-community/plugin-announcements
 
+## 0.12.0
+
+### Minor Changes
+
+- 4a89fd8: With these changes, notifications can be enabled whenever new announcement is created. Announcement notifications are disabled by-default. For details, about notification, please refer [`Notifications`](https://backstage.io/docs/notifications/) docs.
+
+  announcements: integration with notifications #4378
+
+### Patch Changes
+
+- 92b9e8c: Fix a bug in the Edit announcement page where the page does not update the announcement if the announcement is missing a category
+- Updated dependencies [4a89fd8]
+  - @backstage-community/plugin-announcements-common@0.9.0
+  - @backstage-community/plugin-announcements-react@0.10.1
+
 ## 0.11.0
 
 ### Minor Changes
